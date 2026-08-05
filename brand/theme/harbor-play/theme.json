@@ -33,6 +33,9 @@
     { "name": "page-about", "title": "About (English)", "postTypes": ["page"] },
     { "name": "page-about-hindi", "title": "About (Hindi)", "postTypes": ["page"] },
     { "name": "page-disclaimer", "title": "Disclaimer (English)", "postTypes": ["page"] },
-    { "name": "page-disclaimer-hindi", "title": "Disclaimer (Hindi)", "postTypes": ["page"] }
+    { "name": "page-disclaimer-hindi", "title": "Disclaimer (Hindi)", "postTypes": ["page"] },
+    { "name": "page-download", "title": "Download", "postTypes": ["page"] },
+    { "name": "page-register", "title": "Register", "postTypes": ["page"] },
+    { "name": "page-contact", "title": "Contact", "postTypes": ["page"] }
   ]
 }
