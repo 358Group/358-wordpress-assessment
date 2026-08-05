@@ -1,7 +1,7 @@
 <?php
 /**
- * Seed Brand site — Diwa Top India final pages.
- * Copy into WP root and run: php setup-brand.php
+ * Seed Brand site — Diwa Top India final pages (cachedrop layout).
+ * Run inside brand-wp: php setup-brand-updated.php
  */
 require_once __DIR__ . '/wp-load.php';
 
@@ -47,33 +47,9 @@ cdb_page( 'About Our Diwa Top Guide', 'about-us', 'page-about' );
 cdb_page( 'हमारे Diwa Top Guide के बारे में', 'about-us-hindi', 'page-about-hindi' );
 cdb_page( 'Diwa Top Disclaimer', 'disclaimer', 'page-disclaimer' );
 cdb_page( 'Diwa Top Disclaimer Hindi', 'disclaimer-hindi', 'page-disclaimer-hindi' );
-
-foreach (
-	array(
-		'about',
-		'blog',
-		'login',
-		'sign-in',
-		'sign-up',
-		'affiliate',
-		'promotion',
-		'download-app',
-		'download',
-		'register',
-		'contact',
-		'hindi',
-		'games',
-		'app',
-		'faq',
-		'privacy',
-		'terms',
-	) as $old
-) {
-	$p = get_page_by_path( $old );
-	if ( $p ) {
-		wp_update_post( array( 'ID' => $p->ID, 'post_status' => 'draft' ) );
-	}
-}
+cdb_page( 'Download', 'download', 'page-download' );
+cdb_page( 'Register', 'register', 'page-register' );
+cdb_page( 'Contact', 'contact', 'page-contact' );
 
 update_option( 'show_on_front', 'page' );
 update_option( 'page_on_front', $home );

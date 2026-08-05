@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'CDB_VERSION', '5.0.0' );
+define( 'CDB_VERSION', '5.1.0' );
 
 function cdb_setup() {
 	add_theme_support( 'wp-block-styles' );
