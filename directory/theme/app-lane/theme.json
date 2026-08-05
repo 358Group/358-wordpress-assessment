@@ -6,26 +6,20 @@
     "layout": { "contentSize": "720px", "wideSize": "1100px" },
     "color": {
       "palette": [
-        { "slug": "accent", "name": "Teal Accent", "color": "#1bbc9b" },
-        { "slug": "header", "name": "Header Dark", "color": "#1d222d" },
-        { "slug": "bg", "name": "Soft Gray", "color": "#e6e9ef" },
-        { "slug": "text", "name": "Text", "color": "#4c4c4c" },
-        { "slug": "dark", "name": "Dark", "color": "#333333" },
-        { "slug": "white", "name": "White", "color": "#ffffff" }
-      ]
-    },
-    "typography": {
-      "fontFamilies": [
-        { "fontFamily": "\"Open Sans\", \"Segoe UI\", Tahoma, sans-serif", "name": "Open Sans", "slug": "open-sans" }
+        { "slug": "header", "name": "Dark Header", "color": "#1d222d" },
+        { "slug": "orange", "name": "Orange", "color": "#ff9800" },
+        { "slug": "green", "name": "Green", "color": "#2ecc71" },
+        { "slug": "gold", "name": "Gold", "color": "#ffd700" },
+        { "slug": "blue", "name": "Blue", "color": "#1eb7ea" }
       ]
     }
   },
   "styles": {
-    "color": { "background": "#ffffff", "text": "#4c4c4c" },
-    "typography": { "fontFamily": "var(--wp--preset--font-family--open-sans)", "fontSize": "15px", "lineHeight": "1.6" },
+    "color": { "background": "#f4f5f7", "text": "#363636" },
+    "typography": { "fontFamily": "Poppins, sans-serif", "fontSize": "15px" },
     "elements": {
-      "link": { "color": { "text": "#1bbc9b" } },
-      "button": { "color": { "background": "#1bbc9b", "text": "#ffffff" }, "border": { "radius": "4px" } }
+      "link": { "color": { "text": "#0461dd" } },
+      "button": { "color": { "background": "#ff9800", "text": "#ffffff" }, "border": { "radius": "4px" } }
     }
   },
   "templateParts": [
@@ -34,9 +28,7 @@
   ],
   "customTemplates": [
     { "name": "page-app-detail", "title": "App Detail", "postTypes": ["page"] },
-    { "name": "page-contact", "title": "Contact Us", "postTypes": ["page"] },
     { "name": "page-legal", "title": "Disclaimer", "postTypes": ["page"] },
-    { "name": "page-privacy", "title": "Privacy Policy", "postTypes": ["page"] },
-    { "name": "page-terms", "title": "Terms", "postTypes": ["page"] }
+    { "name": "page-contact", "title": "Contact", "postTypes": ["page"] }
   ]
 }

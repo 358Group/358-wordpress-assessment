@@ -1,17 +1,17 @@
 <?php
 /**
- * ALL DIWA GAME theme (reference: https://www.alldiwagame.com/)
+ * Directory theme — reference: https://diwatop.co.in/
  *
- * @package All_Diwa_Game
+ * @package Diwa_Top_Directory
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ALL_DIWA_VERSION', '2.0.0' );
+define( 'DTD_VERSION', '5.0.0' );
 
-function all_diwa_setup() {
+function dtd_setup() {
 	add_theme_support( 'wp-block-styles' );
 	add_theme_support( 'editor-styles' );
 	add_editor_style( 'assets/css/editor.css' );
@@ -19,27 +19,16 @@ function all_diwa_setup() {
 	add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'title-tag' );
 }
-add_action( 'after_setup_theme', 'all_diwa_setup' );
+add_action( 'after_setup_theme', 'dtd_setup' );
 
-function all_diwa_assets() {
+function dtd_assets() {
 	wp_enqueue_style(
-		'all-diwa-fonts',
-		'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap',
+		'dtd-fonts',
+		'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap',
 		array(),
 		null
 	);
-	wp_enqueue_style(
-		'all-diwa-main',
-		get_template_directory_uri() . '/assets/css/main.css',
-		array(),
-		ALL_DIWA_VERSION
-	);
-	wp_enqueue_script(
-		'all-diwa-main',
-		get_template_directory_uri() . '/assets/js/main.js',
-		array(),
-		ALL_DIWA_VERSION,
-		true
-	);
+	wp_enqueue_style( 'dtd-main', get_template_directory_uri() . '/assets/css/main.css', array(), DTD_VERSION );
+	wp_enqueue_script( 'dtd-main', get_template_directory_uri() . '/assets/js/main.js', array(), DTD_VERSION, true );
 }
-add_action( 'wp_enqueue_scripts', 'all_diwa_assets' );
+add_action( 'wp_enqueue_scripts', 'dtd_assets' );

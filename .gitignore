@@ -4,3 +4,5 @@
 .env.*
 **/wp-config.php
 _backup_new_refs_2026-08-05/
+_live_brand/
+_live_directory/

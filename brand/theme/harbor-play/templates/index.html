@@ -1,52 +1,21 @@
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
-<!-- wp:group {"tagName":"main","className":"dm-blog-layout","layout":{"type":"default"}} -->
-<main class="wp-block-group dm-blog-layout">
-  <!-- wp:group {"className":"dm-blog-layout__inner","layout":{"type":"default"}} -->
-  <div class="wp-block-group dm-blog-layout__inner">
-    <!-- wp:group {"className":"dm-blog-main","layout":{"type":"default"}} -->
-    <div class="wp-block-group dm-blog-main">
-      <!-- wp:query-title {"type":"archive","level":1} /-->
-      <!-- wp:query {"query":{"perPage":10,"postType":"post","inherit":true}} -->
-      <div class="wp-block-query">
-        <!-- wp:post-template {"className":"dm-blog-feed"} -->
-          <!-- wp:group {"tagName":"article","className":"dm-post-card","layout":{"type":"constrained"}} -->
-          <article class="wp-block-group dm-post-card">
-            <!-- wp:post-featured-image {"isLink":true,"height":"220px","className":"dm-post-card__media"} /-->
-            <!-- wp:group {"className":"dm-post-card__body","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group dm-post-card__body">
-              <!-- wp:post-title {"level":2,"isLink":true} /-->
-              <!-- wp:group {"className":"dm-post-card__meta","layout":{"type":"flex","justifyContent":"space-between"}} -->
-              <div class="wp-block-group dm-post-card__meta">
-                <!-- wp:post-date {"format":"j M, y"} /-->
-                <!-- wp:read-more {"content":"Read More \u003e"} /-->
-              </div>
-              <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-          </article>
-          <!-- /wp:group -->
-        <!-- /wp:post-template -->
-      </div>
-      <!-- /wp:query -->
-    </div>
-    <!-- /wp:group -->
-    <!-- wp:html -->
-    <aside class="dm-sidebar">
-      <section class="dm-widget"><h3>Search</h3>
-        <form class="dm-search" method="get" action="/"><input type="search" name="s"><button type="submit">Search</button></form>
-      </section>
-      <section class="dm-widget"><h3>Recent Posts</h3>
-        <ul class="dm-widget-list">
-          <li><a href="/online-gaming-tips-tricks/">Online Gaming: Tips and Tricks for Enthusiasts</a></li>
-          <li><a href="/how-to-register-login-dm-win/">How to Register &amp; Login on DM Win</a></li>
-          <li><a href="/download-dm-win-app-mobile-bonuses/">Download the App for Mobile Bonuses</a></li>
-        </ul>
-      </section>
-    </aside>
-    <!-- /wp:html -->
+<!-- wp:group {"tagName":"main","className":"cd-content","layout":{"type":"constrained"}} -->
+<main class="wp-block-group cd-content">
+  <!-- wp:query-title {"type":"archive","level":1} /-->
+  <!-- wp:query {"query":{"perPage":10,"postType":"post","inherit":true}} -->
+  <div class="wp-block-query">
+    <!-- wp:post-template -->
+      <!-- wp:post-title {"level":2,"isLink":true} /-->
+      <!-- wp:post-excerpt /-->
+    <!-- /wp:post-template -->
+    <!-- wp:query-no-results -->
+      <!-- wp:paragraph -->
+      <p>Nothing here yet — layout preview, final content later.</p>
+      <!-- /wp:paragraph -->
+    <!-- /wp:query-no-results -->
   </div>
-  <!-- /wp:group -->
+  <!-- /wp:query -->
 </main>
 <!-- /wp:group -->
 

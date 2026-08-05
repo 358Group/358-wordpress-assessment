@@ -1,20 +1,15 @@
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 <!-- wp:html -->
 <main>
-  <div class="dm-page-hero">
-    <h1>Contact Our Team</h1>
-    <p>24/7-style professional support — we respond as soon as we can.</p>
-  </div>
-  <div class="dm-content">
-    <form class="dm-form" action="mailto:gajendra.loma@gmail.com" method="get">
-      <label>Your Name<input name="subject" required></label>
-      <label>Email Us<input type="email" name="email" required></label>
-      <label>Contact Us by Phone<input type="tel" name="phone" placeholder="+91…"></label>
-      <label>Subject of the Message<input name="topic" required></label>
-      <label>Your Message Here<textarea name="body" rows="5" required></textarea></label>
-      <button class="dm-btn dm-btn--primary" type="submit">Submit</button>
+  <div class="cd-page-hero"><h1>Contact</h1><p>Support desk</p></div>
+  <div class="cd-content">
+    <p>Replace with your live support channels. Temporary: email / Telegram when you confirm.</p>
+    <form class="cd-card" style="display:grid;gap:0.85rem" onsubmit="return false;">
+      <label style="display:grid;gap:0.3rem;font-weight:700">Name<input style="min-height:44px;padding:0.65rem;border:1px solid #e5e7eb;border-radius:8px"></label>
+      <label style="display:grid;gap:0.3rem;font-weight:700">Email<input type="email" style="min-height:44px;padding:0.65rem;border:1px solid #e5e7eb;border-radius:8px"></label>
+      <label style="display:grid;gap:0.3rem;font-weight:700">Message<textarea rows="4" style="padding:0.65rem;border:1px solid #e5e7eb;border-radius:8px"></textarea></label>
+      <button class="cd-btn cd-btn--purple" type="submit">Send</button>
     </form>
-    <p style="margin-top:1.25rem;color:#5a6270">Or email <a href="mailto:gajendra.loma@gmail.com">gajendra.loma@gmail.com</a> · Telegram <a href="https://t.me/lomasdollars">@lomasdollars</a></p>
   </div>
 </main>
 <!-- /wp:html -->

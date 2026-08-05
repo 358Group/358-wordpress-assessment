@@ -3,41 +3,25 @@
   "version": 3,
   "settings": {
     "appearanceTools": true,
-    "layout": { "contentSize": "720px", "wideSize": "1170px" },
+    "layout": { "contentSize": "760px", "wideSize": "1100px" },
     "color": {
       "palette": [
-        { "slug": "primary", "name": "Primary Teal", "color": "#21cdc0" },
-        { "slug": "secondary", "name": "Secondary Navy", "color": "#242c42" },
-        { "slug": "accent", "name": "Accent", "color": "#283b6a" },
-        { "slug": "dark", "name": "Dark", "color": "#171717" },
-        { "slug": "white", "name": "White", "color": "#ffffff" },
-        { "slug": "text", "name": "Text", "color": "#222222" },
-        { "slug": "muted", "name": "Muted", "color": "#5a6270" }
-      ]
-    },
-    "typography": {
-      "fontFamilies": [
-        { "fontFamily": "\"Quicksand\", \"Segoe UI\", sans-serif", "name": "Quicksand", "slug": "quicksand" },
-        { "fontFamily": "\"Roboto\", \"Segoe UI\", sans-serif", "name": "Roboto", "slug": "roboto" }
+        { "slug": "purple", "name": "Purple", "color": "#4a148c" },
+        { "slug": "purple-deep", "name": "Purple Deep", "color": "#330968" },
+        { "slug": "gold", "name": "Gold", "color": "#ffb300" },
+        { "slug": "orange", "name": "Orange CTA", "color": "#ff6900" },
+        { "slug": "navy", "name": "Navy", "color": "#020381" },
+        { "slug": "white", "name": "White", "color": "#ffffff" }
       ]
     }
   },
   "styles": {
-    "color": { "background": "#ffffff", "text": "#222222" },
-    "typography": {
-      "fontFamily": "var(--wp--preset--font-family--roboto)",
-      "fontSize": "16px",
-      "lineHeight": "1.7"
-    },
+    "color": { "background": "#ffffff", "text": "#1f2937" },
+    "typography": { "fontFamily": "Nunito, sans-serif", "fontSize": "16px", "lineHeight": "1.7" },
     "elements": {
-      "heading": {
-        "typography": { "fontFamily": "var(--wp--preset--font-family--quicksand)", "fontWeight": "700" }
-      },
-      "link": { "color": { "text": "#21cdc0" } },
-      "button": {
-        "border": { "radius": "6px" },
-        "color": { "background": "#21cdc0", "text": "#ffffff" }
-      }
+      "heading": { "typography": { "fontFamily": "Montserrat, sans-serif", "fontWeight": "700" } },
+      "link": { "color": { "text": "#4a148c" } },
+      "button": { "color": { "background": "#ff6900", "text": "#ffffff" }, "border": { "radius": "8px" } }
     }
   },
   "templateParts": [
@@ -45,15 +29,10 @@
     { "name": "footer", "title": "Footer", "area": "footer" }
   ],
   "customTemplates": [
-    { "name": "page-about", "title": "About", "postTypes": ["page"] },
-    { "name": "page-contact", "title": "Contact", "postTypes": ["page"] },
-    { "name": "page-login", "title": "Login", "postTypes": ["page"] },
-    { "name": "page-register", "title": "Register", "postTypes": ["page"] },
-    { "name": "page-signin", "title": "Sign In", "postTypes": ["page"] },
-    { "name": "page-signup", "title": "Sign Up", "postTypes": ["page"] },
-    { "name": "page-affiliate", "title": "Affiliate", "postTypes": ["page"] },
-    { "name": "page-promotion", "title": "Promotion", "postTypes": ["page"] },
-    { "name": "page-download", "title": "Download App", "postTypes": ["page"] },
-    { "name": "page-blog", "title": "Blog", "postTypes": ["page"] }
+    { "name": "page-hi", "title": "Hindi Homepage", "postTypes": ["page"] },
+    { "name": "page-about", "title": "About (English)", "postTypes": ["page"] },
+    { "name": "page-about-hindi", "title": "About (Hindi)", "postTypes": ["page"] },
+    { "name": "page-disclaimer", "title": "Disclaimer (English)", "postTypes": ["page"] },
+    { "name": "page-disclaimer-hindi", "title": "Disclaimer (Hindi)", "postTypes": ["page"] }
   ]
 }

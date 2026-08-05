@@ -1,53 +1,26 @@
-# 358 Group — WordPress websites
+# 358 Group — Updated refs (branch preview)
 
-| Site | Live URL | Code repo |
-|------|----------|-----------|
-| **Brand — DM Win** | https://358group.github.io/dm-win/ | https://github.com/358Group/dm-win |
-| **Directory — ALL DIWA GAME** | https://358group.github.io/all-diwa-game/ | https://github.com/358Group/all-diwa-game |
-| Themes + Docker | — | https://github.com/358Group/358-wordpress-website |
+**Branch:** `updated-refs-cachedrop-diwatop`  
+**Note:** `main` stays on the previous DM Win / ALL DIWA GAME delivery. This branch is the **new** manager requirement.
 
-| Role | Reference | Theme folder | Local Docker |
-|------|-----------|--------------|--------------|
-| **Brand** | [dmwin77.com](https://dmwin77.com/) | `brand/theme/harbor-play` → **DM Win** | http://localhost:8080 |
-| **Directory** | [alldiwagame.com](https://www.alldiwagame.com/) | `directory/theme/app-lane` → **ALL DIWA GAME** | http://localhost:8081 |
+| Role | Reference | Theme | Live preview |
+|------|-----------|-------|--------------|
+| **Brand page** | [cachedrop.net](https://cachedrop.net/) | `brand/theme/harbor-play` | https://358group.github.io/diwa-top-brand/ |
+| **Directory** | [diwatop.co.in](https://diwatop.co.in/) | `directory/theme/app-lane` | https://358group.github.io/diwatop-directory/ |
 
-## What to review
+Layout/style matched to the references. **Final content comes next** — pages use placeholder copy for design feedback.
 
-- Brand theme: `brand/theme/harbor-play/`
-- Directory theme: `directory/theme/app-lane/`
-- Docker: `docker-compose.yml` (Brand `:8080`, Directory `:8081`)
-- Seed scripts: `scripts/`
+Live WordPress targets (deploy later; do not store passwords in git):
+- Brand → helplinehrconsulting.com
+- Directory → sheelakrishnaswamy.com
 
-## Local run
+## Local Docker
 
 ```bash
-cd 358-Group
-# needs Docker + Colima (or Docker Desktop)
-docker-compose up -d
+git checkout updated-refs-cachedrop-diwatop
+cd 358-Group && docker-compose up -d
 ```
 
-Then open the two localhost URLs above. Seed pages if needed:
+Brand http://localhost:8080 · Directory http://localhost:8081
 
-```bash
-docker cp scripts/setup-brand.php 358-group-brand-wp-1:/var/www/html/
-docker-compose exec brand-wp php setup-brand.php
-docker cp scripts/setup-directory.php 358-group-directory-wp-1:/var/www/html/
-docker-compose exec directory-wp php setup-directory.php
-docker cp scripts/enrich-content.php 358-group-brand-wp-1:/var/www/html/
-docker-compose exec -e SITE=brand brand-wp php enrich-content.php
-docker cp scripts/seed-blogs.php 358-group-brand-wp-1:/var/www/html/
-docker-compose exec brand-wp php seed-blogs.php
-docker cp scripts/enrich-content.php 358-group-directory-wp-1:/var/www/html/
-docker-compose exec -e SITE=directory directory-wp php enrich-content.php
-```
-
-## Go live (optional)
-
-Zip and upload each theme in WP Admin → Appearance → Themes:
-
-```bash
-cd brand/theme && zip -r ../../dm-win-theme.zip harbor-play
-cd ../../directory/theme && zip -r ../../all-diwa-theme.zip app-lane
-```
-
-**18+** · Informational demos — not live gambling operators.
+**18+** · Informational layout demos — not live gambling operators.
