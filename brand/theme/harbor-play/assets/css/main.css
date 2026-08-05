@@ -323,6 +323,53 @@ p { margin: 0 0 1rem; }
 }
 .cd-table tr:last-child td { border-bottom: 0; }
 
+/* Reference-style game info table (cachedrop.net) */
+.cd-table--game {
+  min-width: 320px;
+  border: 1px solid #d0d0d0;
+}
+.cd-table-wrap--game {
+  border: 1px solid #c8c8c8;
+  border-radius: 0;
+  box-shadow: none;
+  max-width: 560px;
+}
+.cd-table--game th,
+.cd-table--game td {
+  border: 1px solid #cfcfcf;
+  padding: 0.7rem 0.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.cd-table--game thead th {
+  background: #8b0000;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.cd-table--game tbody td:first-child {
+  text-align: left;
+  text-transform: uppercase;
+  color: #111;
+  white-space: nowrap;
+  width: 42%;
+}
+.cd-table--game tbody td:last-child {
+  text-align: center;
+  color: #111;
+}
+.cd-table--game a.cd-game-link {
+  color: #c00000 !important;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.cd-table--game a.cd-game-link:hover {
+  color: #8b0000 !important;
+}
+
 .cd-faq details {
   background: #fff;
   border: 1px solid var(--cd-line);
