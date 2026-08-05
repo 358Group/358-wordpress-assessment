@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — ALL DIWA GAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+
+<div class="wp-site-blocks"><header class="wp-block-template-part">
+<header class="ad-header">
+  <div class="ad-header__inner">
+    <a class="ad-logo" href="index.html" aria-label="ALL DIWA GAME home">
+      <img decoding="async" src="assets/img/logo.webp" alt="" width="40" height="40">
+      <span>ALL DIWA GAME</span>
+    </a>
+    <button class="ad-menu-toggle" type="button" aria-expanded="false" aria-controls="ad-nav">Menu</button>
+    <nav class="ad-nav" id="ad-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="contact-us.html">Contact Us</a>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+</header>
+
+<main>
+  <section class="ad-hero">
+    <h1>Contact Us</h1>
+    <p>Questions, suggestions, or support-related issues</p>
+  </section>
+  <div class="ad-page">
+    <p>If you have any questions, suggestions or support related issues, feel free to contact us anytime. We try to respond to all user queries as quickly as possible.</p>
+    <p>For business or promotional inquiries, use the form below or email us directly.</p>
+    <form class="ad-form" action="mailto:gajendra.loma@gmail.com" method="get" style="margin:1.25rem 0">
+      <label>Name<input name="subject" required autocomplete="name"></label>
+      <label>Email<input type="email" name="email" required autocomplete="email"></label>
+      <label>Message<textarea name="body" rows="5" required placeholder="App name, link, or question…"></textarea></label>
+      <button class="ad-btn" type="submit">Send message</button>
+    </form>
+    <p>Email <a href="mailto:gajendra.loma@gmail.com">gajendra.loma@gmail.com</a><br>Telegram <a href="https://t.me/lomasdollars" target="_blank" rel="noopener">@lomasdollars</a></p>
+    <div class="ad-disclaimer" style="margin-top:1.5rem">
+      Disclaimer: This website is for informational purposes. Users must be 18+ before using any gaming application. Please play responsibly.
+    </div>
+  </div>
+</main>
+
+<footer class="wp-block-template-part">
+<footer class="ad-footer">
+  <div class="ad-footer__inner">
+    <div>
+      <a class="ad-logo" href="index.html" style="margin-bottom:0.65rem">
+        <img decoding="async" src="assets/img/logo.webp" alt="" width="36" height="36">
+        <span>ALL DIWA GAME</span>
+      </a>
+      <p style="margin:0.65rem 0 0;max-width:34ch;font-size:0.9rem;line-height:1.6">
+        An independent catalogue of Diwa and related game APK guides — bonus notes, install tips, and legal pages in one place.
+      </p>
+    </div>
+    <div>
+      <h3>Pages</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Legal</h3>
+      <ul>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms and Conditions</a></li>
+        <li><a href="https://t.me/lomasdollars" target="_blank" rel="noopener">Join Telegram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ad-footer__legal">
+    <p style="margin:0 0 0.35rem">Independent informational demo. Not affiliated with official Diwa companies. 18+ only. Play responsibly.</p>
+    <p style="margin:0">© ALL DIWA GAME · Reference: alldiwagame.com</p>
+  </div>
+</footer>
+
+</footer>
+</div>
+<script id="wp-block-template-skip-link-js-after">
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	
+</script>
+<script src="http://localhost:8081assets/js/main.js?ver=2.0.0" id="all-diwa-main-js"></script>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

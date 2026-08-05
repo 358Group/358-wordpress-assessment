@@ -1,9 +1,17 @@
 # 358 Group — WordPress assessment
 
-Same sharing style as previous assessments (`yonogames`, `allnewyonoapps`): push this folder to GitHub under **358Group**, then send your manager the repo URL.
+Same sharing style as previous assessments (`yonogames`, `allnewyonoapps`).
 
-| Role | Reference | Theme folder | Local preview |
-|------|-----------|--------------|---------------|
+## Live URLs (GitHub Pages)
+
+| Site | Live URL |
+|------|----------|
+| **Hub** | https://358group.github.io/358-wordpress-assessment/ |
+| **Brand — DM Win** | https://358group.github.io/358-wordpress-assessment/brand/ |
+| **Directory — ALL DIWA GAME** | https://358group.github.io/358-wordpress-assessment/directory/ |
+
+| Role | Reference | Theme folder | Local Docker |
+|------|-----------|--------------|--------------|
 | **Brand** | [dmwin77.com](https://dmwin77.com/) | `brand/theme/harbor-play` → **DM Win** | http://localhost:8080 |
 | **Directory** | [alldiwagame.com](https://www.alldiwagame.com/) | `directory/theme/app-lane` → **ALL DIWA GAME** | http://localhost:8081 |
 
