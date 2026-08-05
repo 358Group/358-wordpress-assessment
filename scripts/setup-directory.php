@@ -38,7 +38,7 @@ function ad_htaccess() {
 function ad_blurb( $bonus, $text ) {
 	return '<!-- wp:paragraph --><p><strong>Bonus notes:</strong> ' . esc_html( $bonus ) . '</p><!-- /wp:paragraph -->'
 		. '<!-- wp:paragraph --><p>' . esc_html( $text ) . '</p><!-- /wp:paragraph -->'
-		. '<!-- wp:paragraph --><p>This listing follows the ALL DIWA GAME catalogue style (alldiwagame.com). Demo content for WordPress assessment — verify any real APK yourself. 18+ only.</p><!-- /wp:paragraph -->';
+		. '<!-- wp:paragraph --><p>This listing follows the ALL DIWA GAME catalogue style (alldiwagame.com). Demo content for WordPress demo — verify any real APK yourself. 18+ only.</p><!-- /wp:paragraph -->';
 }
 
 update_option( 'blogname', 'ALL DIWA GAME' );

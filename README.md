@@ -1,25 +1,17 @@
-# 358 Group — WordPress assessment
-
-Same sharing style as previous assessments (`yonogames`, `allnewyonoapps`).
-
-## Live URLs (GitHub Pages — same style as yonogames / allnewyonoapps)
+# 358 Group — WordPress websites
 
 | Site | Live URL | Code repo |
 |------|----------|-----------|
 | **Brand — DM Win** | https://358group.github.io/dm-win/ | https://github.com/358Group/dm-win |
 | **Directory — ALL DIWA GAME** | https://358group.github.io/all-diwa-game/ | https://github.com/358Group/all-diwa-game |
-| Full assessment (themes + Docker) | — | https://github.com/358Group/358-wordpress-assessment |
-
-Compare with previous shares:
-- https://358group.github.io/yonogames/
-- https://358group.github.io/allnewyonoapps/
+| Themes + Docker | — | https://github.com/358Group/358-wordpress-website |
 
 | Role | Reference | Theme folder | Local Docker |
 |------|-----------|--------------|--------------|
 | **Brand** | [dmwin77.com](https://dmwin77.com/) | `brand/theme/harbor-play` → **DM Win** | http://localhost:8080 |
 | **Directory** | [alldiwagame.com](https://www.alldiwagame.com/) | `directory/theme/app-lane` → **ALL DIWA GAME** | http://localhost:8081 |
 
-## What your manager reviews
+## What to review
 
 - Brand theme: `brand/theme/harbor-play/`
 - Directory theme: `directory/theme/app-lane/`
