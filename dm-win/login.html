@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login — DM Win</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+
+<div class="wp-site-blocks"><header class="wp-block-template-part">
+<div class="dm-topbar">
+  Download APP — Get Free <strong>₹1111</strong> Bonus!
+  <a href="download-app.html">Get the app</a>
+</div>
+<header class="dm-header">
+  <div class="dm-header__inner">
+    <a class="dm-logo" href="index.html" aria-label="DM Win home">DM Win</a>
+    <button class="dm-menu-toggle" type="button" aria-expanded="false" aria-controls="dm-nav-primary">Menu</button>
+    <nav class="dm-nav-primary" id="dm-nav-primary" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="index.html#blog">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+      <a href="sign-in.html">Sign In</a>
+      <a href="sign-up.html">Sign Up</a>
+    </nav>
+    <nav class="dm-nav-utility" aria-label="Secondary">
+      <a href="affiliate.html">Affiliate</a>
+      <a href="promotion.html">Promotion</a>
+      <a class="dm-nav-cta" href="download-app.html">Download App</a>
+    </nav>
+  </div>
+</header>
+
+</header>
+
+<main>
+  <div class="dm-page-hero">
+    <h1>DM Win Login</h1>
+    <p>Secure Login · Quick Access · Safe Gaming Platform</p>
+  </div>
+  <div class="dm-content dm-content--split">
+    <div>
+      <h2>Access your account</h2>
+      <p style="color:#5a6270">Access your account securely with our login system. Enjoy instant access to casino games, lottery, and more after you sign in.</p>
+      <p style="color:#5a6270">New here? <a href="register.html">Create an account</a> or use <a href="sign-in.html">Sign In</a> / <a href="sign-up.html">Sign Up</a> pages — same flow as the reference site navigation.</p>
+    </div>
+    <form class="dm-form" onsubmit="alert('Demo login only — no account is created.'); return false;">
+      <h2 style="margin:0;font-size:1.35rem">Login</h2>
+      <label>Email / Username<input type="text" required autocomplete="username"></label>
+      <label>Password<input type="password" required autocomplete="current-password"></label>
+      <button class="dm-btn dm-btn--primary" type="submit">Login</button>
+      <p style="margin:0;font-size:0.88rem;color:#5a6270">Forgot password? Contact support.</p>
+    </form>
+  </div>
+</main>
+
+<footer class="wp-block-template-part">
+<footer class="dm-footer">
+  <div class="dm-footer__inner">
+    <div>
+      <a class="dm-logo" href="index.html">DM Win</a>
+      <p style="margin:0;max-width:34ch;font-size:0.95rem;line-height:1.65">
+        A calm lobby for online gaming — clear register and login paths, promotions when they matter, and support that answers like a person.
+      </p>
+    </div>
+    <div>
+      <h3>Useful Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="index.html#blog">Blog</a></li>
+        <li><a href="promotion.html">Promotions</a></li>
+        <li><a href="affiliate.html">Affiliate</a></li>
+        <li><a href="download-app.html">Download App</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Reach Out Now</h3>
+      <ul>
+        <li><a href="mailto:gajendra.loma@gmail.com">gajendra.loma@gmail.com</a></li>
+        <li><a href="https://t.me/lomasdollars" target="_blank" rel="noopener">Telegram @lomasdollars</a></li>
+        <li><a href="contact.html">Contact form</a></li>
+        <li><a href="login.html">Login</a> · <a href="register.html">Register</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="dm-footer__legal">
+    <p style="margin:0 0 0.4rem"><strong>18+</strong> only. Informational WordPress demo inspired by dmwin77.com. Not a live gambling operator. Play responsibly.</p>
+    <p style="margin:0">© DM Win</p>
+  </div>
+</footer>
+
+</footer>
+</div>
+<script id="wp-block-template-skip-link-js-after">
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	
+</script>
+<script src="http://localhost:8080assets/js/main.js?ver=2.0.0" id="dm-win-main-js"></script>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
