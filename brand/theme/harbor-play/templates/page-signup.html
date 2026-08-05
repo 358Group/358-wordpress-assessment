@@ -1,0 +1,21 @@
+<!-- wp:template-part {"slug":"header","area":"header"} /-->
+<!-- wp:html -->
+<main>
+  <div class="dm-page-hero">
+    <h1>Sign Up</h1>
+    <p>Join DM Win — register path mirrored from the reference navigation.</p>
+  </div>
+  <div class="dm-content">
+    <form class="dm-form" onsubmit="alert('Demo sign-up only.'); return false;">
+      <label>Username<input required></label>
+      <label>Email<input type="email" required></label>
+      <label>Password<input type="password" required></label>
+      <label>Confirm password<input type="password" required></label>
+      <label style="display:flex;gap:0.5rem;font-weight:500"><input type="checkbox" required> I am 18+</label>
+      <button class="dm-btn dm-btn--primary" type="submit">Sign Up</button>
+    </form>
+    <p style="margin-top:1rem;color:#5a6270">Prefer the full register flow? <a href="/register/">Go to Register</a></p>
+  </div>
+</main>
+<!-- /wp:html -->
+<!-- wp:template-part {"slug":"footer","area":"footer"} /-->

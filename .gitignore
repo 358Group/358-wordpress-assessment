@@ -1,0 +1,6 @@
+.DS_Store
+*.zip
+.env
+.env.*
+**/wp-config.php
+_backup_new_refs_2026-08-05/

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": { "contentSize": "720px", "wideSize": "1100px" },
+    "color": {
+      "palette": [
+        { "slug": "accent", "name": "Teal Accent", "color": "#1bbc9b" },
+        { "slug": "header", "name": "Header Dark", "color": "#1d222d" },
+        { "slug": "bg", "name": "Soft Gray", "color": "#e6e9ef" },
+        { "slug": "text", "name": "Text", "color": "#4c4c4c" },
+        { "slug": "dark", "name": "Dark", "color": "#333333" },
+        { "slug": "white", "name": "White", "color": "#ffffff" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        { "fontFamily": "\"Open Sans\", \"Segoe UI\", Tahoma, sans-serif", "name": "Open Sans", "slug": "open-sans" }
+      ]
+    }
+  },
+  "styles": {
+    "color": { "background": "#ffffff", "text": "#4c4c4c" },
+    "typography": { "fontFamily": "var(--wp--preset--font-family--open-sans)", "fontSize": "15px", "lineHeight": "1.6" },
+    "elements": {
+      "link": { "color": { "text": "#1bbc9b" } },
+      "button": { "color": { "background": "#1bbc9b", "text": "#ffffff" }, "border": { "radius": "4px" } }
+    }
+  },
+  "templateParts": [
+    { "name": "header", "title": "Header", "area": "header" },
+    { "name": "footer", "title": "Footer", "area": "footer" }
+  ],
+  "customTemplates": [
+    { "name": "page-app-detail", "title": "App Detail", "postTypes": ["page"] },
+    { "name": "page-contact", "title": "Contact Us", "postTypes": ["page"] },
+    { "name": "page-legal", "title": "Disclaimer", "postTypes": ["page"] },
+    { "name": "page-privacy", "title": "Privacy Policy", "postTypes": ["page"] },
+    { "name": "page-terms", "title": "Terms", "postTypes": ["page"] }
+  ]
+}

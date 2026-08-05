@@ -1,0 +1,14 @@
+/*
+Theme Name: ALL DIWA GAME
+Theme URI: https://www.alldiwagame.com/
+Author: 358 Group Assessment
+Description: WordPress directory theme matching ALL DIWA GAME (alldiwagame.com / Appyn-style catalogue).
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 8.0
+Version: 2.0.0
+Text Domain: all-diwa-game
+Tags: full-site-editing, custom-colors, blog
+*/
+
+body { margin: 0; }

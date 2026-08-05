@@ -1,0 +1,14 @@
+/*
+Theme Name: DM Win
+Theme URI: https://dmwin77.com/
+Author: 358 Group Assessment
+Description: WordPress brand theme matching DM Win (dmwin77.com) — teal accent, Quicksand/Roboto, full page set.
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 8.0
+Version: 2.0.0
+Text Domain: dm-win
+Tags: full-site-editing, custom-colors, blog
+*/
+
+body { margin: 0; }

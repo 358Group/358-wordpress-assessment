@@ -1,0 +1,59 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": { "contentSize": "720px", "wideSize": "1170px" },
+    "color": {
+      "palette": [
+        { "slug": "primary", "name": "Primary Teal", "color": "#21cdc0" },
+        { "slug": "secondary", "name": "Secondary Navy", "color": "#242c42" },
+        { "slug": "accent", "name": "Accent", "color": "#283b6a" },
+        { "slug": "dark", "name": "Dark", "color": "#171717" },
+        { "slug": "white", "name": "White", "color": "#ffffff" },
+        { "slug": "text", "name": "Text", "color": "#222222" },
+        { "slug": "muted", "name": "Muted", "color": "#5a6270" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        { "fontFamily": "\"Quicksand\", \"Segoe UI\", sans-serif", "name": "Quicksand", "slug": "quicksand" },
+        { "fontFamily": "\"Roboto\", \"Segoe UI\", sans-serif", "name": "Roboto", "slug": "roboto" }
+      ]
+    }
+  },
+  "styles": {
+    "color": { "background": "#ffffff", "text": "#222222" },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--roboto)",
+      "fontSize": "16px",
+      "lineHeight": "1.7"
+    },
+    "elements": {
+      "heading": {
+        "typography": { "fontFamily": "var(--wp--preset--font-family--quicksand)", "fontWeight": "700" }
+      },
+      "link": { "color": { "text": "#21cdc0" } },
+      "button": {
+        "border": { "radius": "6px" },
+        "color": { "background": "#21cdc0", "text": "#ffffff" }
+      }
+    }
+  },
+  "templateParts": [
+    { "name": "header", "title": "Header", "area": "header" },
+    { "name": "footer", "title": "Footer", "area": "footer" }
+  ],
+  "customTemplates": [
+    { "name": "page-about", "title": "About", "postTypes": ["page"] },
+    { "name": "page-contact", "title": "Contact", "postTypes": ["page"] },
+    { "name": "page-login", "title": "Login", "postTypes": ["page"] },
+    { "name": "page-register", "title": "Register", "postTypes": ["page"] },
+    { "name": "page-signin", "title": "Sign In", "postTypes": ["page"] },
+    { "name": "page-signup", "title": "Sign Up", "postTypes": ["page"] },
+    { "name": "page-affiliate", "title": "Affiliate", "postTypes": ["page"] },
+    { "name": "page-promotion", "title": "Promotion", "postTypes": ["page"] },
+    { "name": "page-download", "title": "Download App", "postTypes": ["page"] },
+    { "name": "page-blog", "title": "Blog", "postTypes": ["page"] }
+  ]
+}

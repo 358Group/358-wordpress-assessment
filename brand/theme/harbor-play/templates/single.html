@@ -1,0 +1,95 @@
+<!-- wp:template-part {"slug":"header","area":"header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"dm-blog-layout","layout":{"type":"default"}} -->
+<main class="wp-block-group dm-blog-layout">
+
+  <!-- wp:group {"className":"dm-blog-layout__inner","layout":{"type":"default"}} -->
+  <div class="wp-block-group dm-blog-layout__inner">
+
+    <!-- wp:group {"tagName":"article","className":"dm-blog-main dm-single","layout":{"type":"constrained"}} -->
+    <article class="wp-block-group dm-blog-main dm-single">
+
+      <!-- wp:post-title {"level":1} /-->
+
+      <!-- wp:group {"className":"dm-single__meta","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+      <div class="wp-block-group dm-single__meta">
+        <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
+        <div class="wp-block-group">
+          <!-- wp:post-author-name {"isLink":false} /-->
+          <!-- wp:post-date /-->
+        </div>
+        <!-- /wp:group -->
+        <!-- wp:post-terms {"term":"category","className":"dm-single__cats"} /-->
+      </div>
+      <!-- /wp:group -->
+
+      <!-- wp:post-featured-image {"className":"dm-single__featured"} /-->
+
+      <!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+
+      <!-- wp:html -->
+      <nav class="dm-single__nav" aria-label="Post navigation">
+        <a class="dm-btn dm-btn--outline-dark" href="/blog/">← Back to Blog</a>
+        <a class="dm-btn dm-btn--primary" href="/register/">Register Now</a>
+      </nav>
+      <!-- /wp:html -->
+
+    </article>
+    <!-- /wp:group -->
+
+    <!-- wp:html -->
+    <aside class="dm-sidebar" aria-label="Blog sidebar">
+      <section class="dm-widget">
+        <h3>Search</h3>
+        <form class="dm-search" role="search" method="get" action="/">
+          <input type="search" name="s" placeholder="Search…">
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      <section class="dm-widget">
+        <h3>Recent Posts</h3>
+        <ul class="dm-widget-list">
+          <li><a href="/online-gaming-tips-tricks/">Online Gaming: Tips and Tricks for Enthusiasts</a></li>
+          <li><a href="/how-to-register-login-dm-win/">How to Register &amp; Login on DM Win</a></li>
+          <li><a href="/download-dm-win-app-mobile-bonuses/">Download the App for Mobile Bonuses</a></li>
+        </ul>
+      </section>
+      <section class="dm-widget">
+        <h3>Recent Comments</h3>
+        <p class="dm-widget-empty">No comments to show.</p>
+      </section>
+      <section class="dm-widget">
+        <h3>Archives</h3>
+        <ul class="dm-widget-list">
+          <li><a href="/2025/10/">October 2025</a></li>
+          <li><a href="/2025/11/">November 2025</a></li>
+        </ul>
+      </section>
+      <section class="dm-widget">
+        <h3>Categories</h3>
+        <ul class="dm-widget-list">
+          <li><a href="/category/guides/">Guides</a></li>
+          <li><a href="/category/app/">App</a></li>
+          <li><a href="/category/uncategorized/">Uncategorized</a></li>
+        </ul>
+      </section>
+    </aside>
+    <!-- /wp:html -->
+
+  </div>
+  <!-- /wp:group -->
+
+  <!-- wp:html -->
+  <div class="dm-blog-cta-bar">
+    <div class="dm-blog-cta-bar__inner">
+      <a class="dm-btn dm-btn--primary" href="/register/">REGISTER</a>
+      <a class="dm-btn dm-btn--primary" href="/login/">LOGIN</a>
+      <a class="dm-btn dm-btn--primary" href="/affiliate/">AFFILIATE</a>
+    </div>
+  </div>
+  <!-- /wp:html -->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","area":"footer"} /-->

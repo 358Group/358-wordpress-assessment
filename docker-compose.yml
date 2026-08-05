@@ -1,0 +1,62 @@
+services:
+  brand-db:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: harbor_play
+      MYSQL_USER: wp
+      MYSQL_PASSWORD: wp
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - brand_db:/var/lib/mysql
+    restart: unless-stopped
+
+  brand-wp:
+    image: wordpress:6.7-php8.2-apache
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: brand-db
+      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_PASSWORD: wp
+      WORDPRESS_DB_NAME: harbor_play
+      WORDPRESS_TABLE_PREFIX: hp_
+    volumes:
+      - brand_data:/var/www/html
+      - ./brand/theme/harbor-play:/var/www/html/wp-content/themes/harbor-play
+    depends_on:
+      - brand-db
+    restart: unless-stopped
+
+  directory-db:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: app_lane
+      MYSQL_USER: wp
+      MYSQL_PASSWORD: wp
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - directory_db:/var/lib/mysql
+    restart: unless-stopped
+
+  directory-wp:
+    image: wordpress:6.7-php8.2-apache
+    ports:
+      - "8081:80"
+    environment:
+      WORDPRESS_DB_HOST: directory-db
+      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_PASSWORD: wp
+      WORDPRESS_DB_NAME: app_lane
+      WORDPRESS_TABLE_PREFIX: al_
+    volumes:
+      - directory_data:/var/www/html
+      - ./directory/theme/app-lane:/var/www/html/wp-content/themes/app-lane
+    depends_on:
+      - directory-db
+    restart: unless-stopped
+
+volumes:
+  brand_db:
+  brand_data:
+  directory_db:
+  directory_data:

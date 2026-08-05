@@ -1,0 +1,46 @@
+<!-- wp:html -->
+<aside class="dm-sidebar" aria-label="Blog sidebar">
+  <section class="dm-widget">
+    <h3>Search</h3>
+    <form class="dm-search" role="search" method="get" action="/">
+      <input type="search" name="s" placeholder="Search…" value="">
+      <button type="submit">Search</button>
+    </form>
+  </section>
+  <section class="dm-widget">
+    <h3>Recent Posts</h3>
+    <ul class="dm-widget-list">
+<!-- /wp:html -->
+
+<!-- wp:query {"query":{"perPage":5,"postType":"post","order":"desc","orderBy":"date"},"displayLayout":{"type":"list"}} -->
+<div class="wp-block-query">
+  <!-- wp:post-template -->
+    <!-- wp:post-title {"level":0,"isLink":true,"fontSize":"small"} /-->
+  <!-- /wp:post-template -->
+</div>
+<!-- /wp:query -->
+
+<!-- wp:html -->
+    </ul>
+  </section>
+  <section class="dm-widget">
+    <h3>Recent Comments</h3>
+    <p class="dm-widget-empty">No comments to show.</p>
+  </section>
+  <section class="dm-widget">
+    <h3>Archives</h3>
+    <ul class="dm-widget-list">
+      <li><a href="/2025/10/">October 2025</a></li>
+      <li><a href="/2025/11/">November 2025</a></li>
+    </ul>
+  </section>
+  <section class="dm-widget">
+    <h3>Categories</h3>
+    <ul class="dm-widget-list">
+      <li><a href="/category/uncategorized/">Uncategorized</a></li>
+      <li><a href="/category/guides/">Guides</a></li>
+      <li><a href="/category/app/">App</a></li>
+    </ul>
+  </section>
+</aside>
+<!-- /wp:html -->
