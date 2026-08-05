@@ -122,7 +122,7 @@ def app_page(title, category, blurb):
   <div class="al-page-hero">
     <p class="al-section__label">App notes</p>
     <h1>{title}</h1>
-    <p>{category} · editorial sample for this assessment</p>
+    <p>{category} · editorial sample</p>
   </div>
   <div class="al-content al-content--wide">
     <div class="al-detail">
@@ -155,7 +155,7 @@ pages = {
 <main>
   <div class="al-page-hero"><h1>About App Lane</h1><p>A directory that feels like a notebook, not an app store ad wall.</p></div>
   <div class="al-content">
-    <p>App Lane is the directory half of the 358 Group WordPress assessment. Structure nods to All Diwa Game–style catalogues; the paper texture, leaf accents, and margin-note voice are ours.</p>
+    <p>App Lane is the directory half of the 358 Group WordPress websites. Structure nods to All Diwa Game–style catalogues; the paper texture, leaf accents, and margin-note voice are ours.</p>
     <p>We list fewer apps on purpose. If we can’t write a specific sentence, it doesn’t ship.</p>
   </div>
 </main>
@@ -183,7 +183,7 @@ pages = {
 <main>
   <div class="al-page-hero"><h1>Disclaimer</h1><p>Informational demo directory.</p></div>
   <div class="al-content">
-    <p>App Lane does not operate the apps we write about. Listings are editorial samples for assessment.</p>
+    <p>App Lane does not operate the apps we write about. Listings are editorial samples.</p>
     <p>Real-money apps: legal age only (often 18+). Verify licences and downloads yourself.</p>
   </div>
 </main>
@@ -208,7 +208,7 @@ pages = {
   <div class="al-page-hero"><h1>Terms</h1><p>Lightweight terms for a demo catalogue.</p></div>
   <div class="al-content">
     <p>Content is provided as-is for demonstration. Don’t rely on listings for financial or legal decisions.</p>
-    <p>We may update sample pages anytime as part of the assessment pack.</p>
+    <p>We may update sample pages anytime as needed.</p>
   </div>
 </main>
 """,

@@ -263,7 +263,7 @@ $post3 = <<<'HTML'
 <ol class="wp-block-list">
 <li>Register or login on the website first so your account is ready.</li>
 <li>Visit <a href="/download-app/">Download App</a>.</li>
-<li>Tap <strong>Download Android APK</strong>. <em>This assessment demo does not serve a real APK file.</em></li>
+<li>Tap <strong>Download Android APK</strong>. <em>This demo does not serve a real APK file.</em></li>
 <li>On a production site, enable install-from-unknown-sources only for the official package, then open the app and sign in.</li>
 </ol>
 <!-- /wp:list -->

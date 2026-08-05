@@ -148,7 +148,7 @@ pages = {
 <main>
   <div class="hp-page-hero"><h1>FAQ</h1><p>Answers written once, revised when people actually ask them.</p></div>
   <div class="hp-content"><div class="hp-faq">
-    <details open><summary>What is Harbor Play?</summary><p>A sample brand site for a WordPress assessment — warm colours, human copy, calm lobby.</p></details>
+    <details open><summary>What is Harbor Play?</summary><p>A sample brand site for a WordPress demo — warm colours, human copy, calm lobby.</p></details>
     <details><summary>Is there a real money wallet here?</summary><p>No. Forms are front-end demos. Don’t enter real payment details.</p></details>
     <details><summary>How do I reset a password?</summary><p>Write to gajendra.loma@gmail.com and we’ll explain the intended flow.</p></details>
     <details><summary>Can I set deposit limits?</summary><p>In production, yes — before first deposit, next to the cash button.</p></details>
@@ -165,7 +165,7 @@ pages = {
     <p>We built this brand surface to feel like a warm night desk — ink, cream, a little terracotta.</p>
   </div>
   <div class="hp-content">
-    <p>Harbor Play is the brand half of the 358 Group WordPress assessment: informative like a real lobby site, but written in a human voice instead of stock casino slogans.</p>
+    <p>Harbor Play is the brand half of the 358 Group WordPress websites: informative like a real lobby site, but written in a human voice instead of stock casino slogans.</p>
     <p>Reference structure nodded to MQM BET–style clarity; the palette and tone are our own. Paired directory site: App Lane.</p>
     <p>Contact: <a href="mailto:gajendra.loma@gmail.com">gajendra.loma@gmail.com</a> · Telegram <a href="https://t.me/lomasdollars">@lomasdollars</a></p>
   </div>
@@ -195,7 +195,7 @@ pages = {
 <main>
   <div class="hp-page-hero"><h1>Disclaimer</h1><p>18+ · informational demo · play responsibly</p></div>
   <div class="hp-content">
-    <p>Harbor Play is a WordPress theme demo for assessment purposes. It does not process real money or offer gambling services.</p>
+    <p>Harbor Play is a WordPress theme demo as a demo. It does not process real money or offer gambling services.</p>
     <p>Any game names, stats, or download buttons are sample content. If you struggle with gambling, seek local support and stop playing.</p>
   </div>
 </main>
