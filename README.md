@@ -2,13 +2,17 @@
 
 Same sharing style as previous assessments (`yonogames`, `allnewyonoapps`).
 
-## Live URLs (GitHub Pages)
+## Live URLs (GitHub Pages — same style as yonogames / allnewyonoapps)
 
-| Site | Live URL |
-|------|----------|
-| **Hub** | https://358group.github.io/358-wordpress-assessment/ |
-| **Brand — DM Win** | https://358group.github.io/358-wordpress-assessment/dm-win/ |
-| **Directory — ALL DIWA GAME** | https://358group.github.io/358-wordpress-assessment/all-diwa-game/ |
+| Site | Live URL | Code repo |
+|------|----------|-----------|
+| **Brand — DM Win** | https://358group.github.io/dm-win/ | https://github.com/358Group/dm-win |
+| **Directory — ALL DIWA GAME** | https://358group.github.io/all-diwa-game/ | https://github.com/358Group/all-diwa-game |
+| Full assessment (themes + Docker) | — | https://github.com/358Group/358-wordpress-assessment |
+
+Compare with previous shares:
+- https://358group.github.io/yonogames/
+- https://358group.github.io/allnewyonoapps/
 
 | Role | Reference | Theme folder | Local Docker |
 |------|-----------|--------------|--------------|
