@@ -6,22 +6,22 @@
     "layout": { "contentSize": "760px", "wideSize": "1100px" },
     "color": {
       "palette": [
-        { "slug": "purple", "name": "Purple", "color": "#4a148c" },
-        { "slug": "purple-deep", "name": "Purple Deep", "color": "#330968" },
-        { "slug": "gold", "name": "Gold", "color": "#ffb300" },
-        { "slug": "orange", "name": "Orange CTA", "color": "#ff6900" },
-        { "slug": "navy", "name": "Navy", "color": "#020381" },
+        { "slug": "red", "name": "Red", "color": "#c62828" },
+        { "slug": "maroon", "name": "Maroon", "color": "#8b0000" },
+        { "slug": "yellow", "name": "Yellow", "color": "#f1c40f" },
+        { "slug": "orange", "name": "Orange", "color": "#e64a19" },
+        { "slug": "ink", "name": "Ink", "color": "#1d2327" },
         { "slug": "white", "name": "White", "color": "#ffffff" }
       ]
     }
   },
   "styles": {
-    "color": { "background": "#ffffff", "text": "#1f2937" },
-    "typography": { "fontFamily": "Nunito, sans-serif", "fontSize": "16px", "lineHeight": "1.7" },
+    "color": { "background": "#ffffff", "text": "#1d2327" },
+    "typography": { "fontFamily": "Nunito, sans-serif", "fontSize": "16px", "lineHeight": "1.75" },
     "elements": {
       "heading": { "typography": { "fontFamily": "Montserrat, sans-serif", "fontWeight": "700" } },
-      "link": { "color": { "text": "#4a148c" } },
-      "button": { "color": { "background": "#ff6900", "text": "#ffffff" }, "border": { "radius": "8px" } }
+      "link": { "color": { "text": "#c62828" } },
+      "button": { "color": { "background": "#c62828", "text": "#ffffff" }, "border": { "radius": "8px" } }
     }
   },
   "templateParts": [
